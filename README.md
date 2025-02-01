@@ -1,6 +1,6 @@
 # 🎟️ Movie Ticket Booking System (Console-Based)
 
-A simple **Java-based Movie Ticket Booking System** designed for **2nd-year B.Tech students**.  
+A simple **Java-based Movie Ticket Booking System**.
 It follows **OOP principles** and features **user authentication, show selection, and ticket booking**.
 
 ---
