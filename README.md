@@ -25,4 +25,8 @@ The project is structured using **Object-Oriented Programming (OOP)**:
 
 ---
 
-## 📂 Folder Structure
+## Results
+![image](https://github.com/user-attachments/assets/1caaa868-b1c4-4ea2-9855-1e846b205b70)
+![image](https://github.com/user-attachments/assets/93c87d67-fd47-49ee-b892-d203a3d9220f)
+
+
