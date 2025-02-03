@@ -73,7 +73,7 @@ class Booking {
     }
 
     public void displayBooking() {
-        System.out.println("\n🎟️ Booking Confirmed 🎟️");
+        System.out.println("\n Booking Confirmed ");
         System.out.println("User: " + user.username);
         System.out.println("Movie: " + movie.title);
         System.out.println("Show Time: " + show.time);
@@ -118,12 +118,12 @@ public class MovieTicketBookingApp {
         for (User user : users) {
             if (user.authenticate(username, password)) {
                 currentUser = user;
-                System.out.println("\n✅ Login Successful! Welcome, " + user.username);
+                System.out.println("\n Login Successful! Welcome, " + user.username);
                 mainMenu();
                 return;
             }
         }
-        System.out.println("❌ Invalid credentials! Try again.");
+        System.out.println(" Invalid credentials! Try again.");
         loginMenu();
     }
 
@@ -197,7 +197,7 @@ public class MovieTicketBookingApp {
             newMovie.addShow(time, seats);
         }
         movies.add(newMovie);
-        System.out.println("\n✅ Movie Added Successfully!");
+        System.out.println("\n Movie Added Successfully!");
     }
 
     public static void displayMovies() {
@@ -241,7 +241,7 @@ public class MovieTicketBookingApp {
             bookings.add(newBooking);
             newBooking.displayBooking();
         } else {
-            System.out.println("\n❌ Not enough seats available.");
+            System.out.println("\n Not enough seats available.");
         }
     }
 
